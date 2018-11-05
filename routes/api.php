@@ -1,18 +1,22 @@
 <?php
 
-use Illuminate\Http\Request;
+/*
+|--------------------------------------------------------------------------
+| Client Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('clients/{id?}', 'ClientController@show');
+Route::post('client', 'ClientController@store');
+Route::delete('client/{id}', 'ClientController@delete');
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| Project Routes
 |--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('projects/{id?}', 'ProjectController@show');
+Route::post('project', 'ProjectController@store');
+Route::put('project/{id}', 'ProjectController@update');
+Route::delete('project/{id}', 'ProjectController@delete');
