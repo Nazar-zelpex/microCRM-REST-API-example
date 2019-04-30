@@ -1,6 +1,6 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-[![Travis](https://img.shields.io/travis/Nazar-zelpex/microCRM-REST-API-example-.svg)](https://travis-ci.org/Nazar-zelpex/microCRM-REST-API-example-)
+[![Travis](https://img.shields.io/travis/Nazar-zelpex/microCRM-REST-API-example.svg)](https://travis-ci.org/Nazar-zelpex/microCRM-REST-API-example)
 
 ## MicroCRM REST API
 
